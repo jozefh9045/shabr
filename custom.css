@@ -23,5 +23,17 @@ body {
     url("img/balloon-1.jpg");
     text-shadow: 3px 3px 5px rgba(0,150,255,.6);
     font-family:"Pacifico";
-
 }
+#info{
+    background:
+    url("img/balloon-5.jpg");
+}
+#testemonials{
+    background:
+    url("img/balloon-6.jpg");
+}
+#contact{
+    background:
+    url("img/balloon-3.jpg");
+}
+
