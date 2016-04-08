@@ -17,4 +17,9 @@ body {
 }
 
 #title{
-    background-image: url("img/balloon-1.jpg");}
+    background:
+    linear-gradient(rgba(255,255,255,.95),rgba(255,255,255,.01)),
+    url("img/balloon-1.jpg");
+    text-shadow: 3px 3px 5px rgba(0,150,255,.6);
+    font-family:"Pacifico";
+}
