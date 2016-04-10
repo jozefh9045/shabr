@@ -16,27 +16,104 @@ body {
     width: 100%;
 }
 
+@media only screen and (max-width: 991px) {
+    h1, h2, h3 {
+        font-family: "Pacifico", Impact;
+        text-shadow: 3px 3px 5px rgba(0, 150, 255, .6);
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    p {
+        font-family: "Indie Flower";
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 5px rgb(70, 255, 150);
+    }
+}
 
-#title{
-    background:
-    linear-gradient(rgba(255,255,255,.95),rgba(255,255,255,.01)),
-    url("img/balloon-1.jpg");
-    text-shadow: 3px 3px 5px rgba(0,150,255,.6);
-    font-family:"Pacifico",Impact;
+@media only screen and (min-width: 992px) {
+    h1, h2, h3 {
+        font-family: "Pacifico", Impact;
+        text-shadow: 3px 3px 5px rgba(0, 150, 255, .6);
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    p {
+        font-family: "Indie Flower";
+        font-size: 28px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 5px rgb(70, 255, 150);
+    }
 }
-#info{
-    background:
-    url("img/balloon-5.jpg");
+
+@media only screen and (min-width: 1200px) {
+    h1, h2, h3 {
+        font-family: "Pacifico", Impact;
+        text-shadow: 3px 3px 5px rgba(0, 150, 255, .6);
+    }
+    h1{
+        font-size:80px;
+    }
+    h2{
+        font-size:60px;
+    }
+    h3{
+        font-size:40px;
+    }
+    p {
+        font-family: "Indie Flower";
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 5px rgb(70, 255, 150);
+    }
 }
-#testemonials{
-    background:
-    url("img/balloon-6.jpg");
+
+#title {
+    background: linear-gradient(rgba(255, 255, 255, .95), rgba(255, 255, 255, .01)), url("img/balloon-1.jpg") no-repeat center;
+    background-size: cover;
 }
-#contact{
-    background:
-    url("img/balloon-3.jpg");
+
+#info {
+    background: linear-gradient(rgba(255, 255, 255, .45), rgba(255, 255, 255, .01)), url("img/balloon-4.jpg") no-repeat center;
+    background-size: cover;
 }
-#home{
-    background:
-    url("img/balloon-2.jpg");
+
+#testemonials {
+    background: linear-gradient(rgba(255, 255, 255, .30), rgba(255, 255, 255, .01)), url("img/balloon-6.jpg") no-repeat center;
+    background-size: cover;
+    height:150%
+}
+
+#contact {
+    background: url("img/balloon-3.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#home {
+    background: linear-gradient(rgba(255, 255, 255, .70), rgba(255, 255, 255, .01)), url("img/balloon-2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#bottom{
+    height:5%;
+}
+#bottomtext{
+    font-size:20px;
+}
+.jumbotron{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 }
